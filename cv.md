@@ -18,7 +18,7 @@ Born in Siberia, live in Minsk. My main goal is to always improve myself.
 ## Code examples
 **Are they the "same"?** from CODEWARS:
 
-*Given two arrays a and b write a function comp(a, b) that checks whether the two arrays have the "same" elements, with the same multiplicities. "Same" means, here, that the elements in b are the elements in a squared, regardless of the order.*
+*Given two arrays: a and b. Write a function comp(a, b), that checks whether the two arrays have the "same" elements, with the same multiplicities. "Same" means, here, that the elements in b are the elements in a squared, regardless of the order.*
 
 ```
     function comp(array1, array2){
