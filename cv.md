@@ -1,4 +1,4 @@
-# HelloArtur Saratovkin
+# Artur Saratovkin
 
 ## Contacts
 * +375 33 3143909
