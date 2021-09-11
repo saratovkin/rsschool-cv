@@ -1,22 +1,24 @@
-#Artur Saratovkin
+# HelloArtur Saratovkin
 
-##Contacts:
-    *+375(33)314-39-09
-    *svrvtwkxxn@gmail.com
-    *Minsk, Belarus
+## Contacts
+* +375 33 3143909
+* svrvtwkxxn@gmail.com
+* Minsk, Belarus
 
-#About Myself:
-    *Born in Siberia, live in Minsk.
-    *My main goal is to always improve myself.
+## About Myself
+Born in Siberia, live in Minsk. My main goal is to always improve myself.
 
-#Skills: 
-    *HTML/CSS Basics
-    *JavaScript Basics
-    *OOP 
-    *Git, Github
-    
-#Code examples:
-**Are they the "same"? from CODEWARS:** *Given two arrays a and b write a function comp(a, b) that checks whether the two arrays have the "same" elements, with the same multiplicities. "Same" means, here, that the elements in b are the elements in a squared, regardless of the order.*
+## Skills
+* HTML/CSS Basics
+* JavaScript Basics
+* OOP 
+* Git, Github
+* Adobe PS Basics 
+
+## Code examples
+**Are they the "same"?** from CODEWARS:
+
+*Given two arrays a and b write a function comp(a, b) that checks whether the two arrays have the "same" elements, with the same multiplicities. "Same" means, here, that the elements in b are the elements in a squared, regardless of the order.*
 
 ```
     function comp(array1, array2){
@@ -39,12 +41,13 @@
         }
         return true;
     }
-    ```
-#Education: 
-    *BSU Faculty of Applied Mathematics and Computer Science 2015 - 2019
-    *Self-education at learn.javascript.ru
-    *Stage-1 course at RS-SCHOOL
+```
 
-#Languages: 
-    *Russian(native)
-    *English(A2+)
+## Education
+* Graduated **BSU** Faculty of Applied Mathematics and Computer Science
+* Self-education at *learn.javascript.ru*
+* Stage-1 course at **RS-SCHOOL**
+
+## Languages
+* Russian (native)
+* English (A2+)
