@@ -1,0 +1,111 @@
+html, body {
+    padding: 0;
+    margin: 0;
+
+    height: 200%;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+
+    background-color:#a6a6a6;
+
+    overflow: hidden;
+}
+
+p{
+    font-size: 15px;
+}
+
+.container {
+    margin: 0 auto;   
+
+    width: 100%;
+    min-width: 735px;
+    max-width: 1000px;
+    height: 100vh;
+}
+
+.main-blocks{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.left-part {
+    height: 95vh;
+
+    text-align: center;
+
+    background-color: #efefef;
+}
+
+.right-part {
+    background-color: white;
+}
+
+.header{
+    height: 30vh;
+}
+
+.profile-pic {
+    padding-top: 40px;
+}
+
+.main-title {
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 80px;
+
+    font-size: 70px;
+}
+
+.subtitle {
+    padding-left: 80px;
+
+    font-size: 20px;
+}
+
+.section-title{
+    margin-left: 10%;
+
+    width: 80%;
+
+    text-align: center;
+    color: #fff;
+
+    background-color:#a6a6a6;
+}
+
+.section-list{
+    margin-left: 60px;
+
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.section-text{
+    margin-left: 80px;
+
+    font-size: 15px;
+}
+.footer{
+    margin: 0 auto;
+    position:relative;
+    bottom: 0;
+
+    height: 5vh;
+  
+    text-align: center;
+
+    background-color: #848484;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.footer-link{
+    margin-top: 10px;
+
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
