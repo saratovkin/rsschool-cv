@@ -13,42 +13,29 @@
     <div class="container">
         <div class="main-blocks">
             <div class="left-part">
-                <div class="header">
+                <header class="header">
                     <img class="profile-pic" src="assets/profile-pic.png" height="200" width="200"
                         alt="that's artur, trust me">
-                </div>
-                <section class="about-myself">
-                    <h2 class="section-title">
-                        about myself
-                    </h2>
-                    <p>23 y.o.</p>
-                    <p>born in siberia</p>
-                    <p>live in minsk</p>
-                    <p>"be the best version of yourself"</p>
-                </section>
-                <section class="contacs">
+                </header>
+                <section class="contacts">
                     <h2 class="section-title">
                         contacts
                     </h2>
-                    <p>+375 33 314 39 09</p>
-                    <p>svrvtwkxxn@gmail.com</p>
-                    <p>minsk, belarus</p>
-                </section>
-                <section class="education">
-                    <h2 class="section-title">
-                        education
-                    </h2>
-                    <p>graduated bsu famcs 2019</p>
-                    <p>self-education at learn.javascript.ru</p>
-                    <p>stage-1 course at rs-school</p>
-                </section>
-                <section class="languages">
-                    <h2 class="section-title">languages</h2>
-                    <p>russian (native), english (a2+)</p>
+                    <ul class="contacts-list">
+                        <li>
+                            <a href="" class="contacts-link">+375 33 314 39 09</a>
+                        </li>
+                        <li>
+                            <p class="contacts-link">svrvtwkxxn@gmail.com</p>
+                        </li>
+                        <li>
+                            <p class="contacts-link">minsk, belarus</p>
+                        </li>
+                    </ul>
                 </section>
             </div>
             <div class="right-part">
-                <div class="header">
+                <header class="header">
                     <h1 class="main-title">
                         artur
                         <br>
@@ -57,12 +44,22 @@
                     <p class="subtitle">
                         front-end developer
                     </p>
-                </div>
+                </header>
+                <section class="about-myself">
+                    <h2 class="section-title">
+                        about myself
+                    </h2>
+                    <p class="section-text">hello! my name is artur, i'm 23 years old.
+                        i was born in tomsk(ru), but 6 years ago i moved to minsk(by).
+                        i have a computer science diploma, but never worked in my speciality.
+                        now my main goal is to become real front-end developer.
+                    </p>
+                </section>
                 <section class="skills">
                     <h2 class="section-title">
                         skills
                     </h2>
-                    <ul class="section-list">
+                    <ul class="section-text">
                         <li>html/css basics</li>
                         <li>javascript basics</li>
                         <li>oop</li>
@@ -74,7 +71,7 @@
                     <h2 class="section-title">
                         key strengths
                     </h2>
-                    <ul class="section-list">
+                    <ul class="section-text">
                         <li>sociability</li>
                         <li>creativity</li>
                         <li>responsobility</li>
@@ -83,14 +80,36 @@
                         <li>diligence</li>
                     </ul>
                 </section>
-                <section class="code examples">
+                <section class="code-examples">
                     <h2 class="section-title">
                         code examples
                     </h2>
-                    <!-- if i offended someone with this joke - i apologize :c -->
-                    <p class="section-text">to see my code:</p>
-                    <p class="section-text"> on mac - press cmd+opt+i</p>
-                    <p class="section-text">on windows - press ctrl+shft+i</p>
+                    <p class="section-text">
+                        "handshake problem" from codewars:
+                    </p>
+                    <div class="code-example">
+                        <pre>
+                function getParticipants(handshakes){
+                    let n = 1;
+                    while ((n * (n - 1) / 2) &lt; handshakes) {
+                        n++;
+                    }
+                    return n;
+                }
+                        </pre>
+                    </div>
+                </section>
+                <section class="education">
+                    <h2 class="section-title">
+                        education
+                    </h2>
+                    <p class="section-text">graduated bsu famcs 2019</p>
+                    <p class="section-text">self-education at learn.javascript.ru</p>
+                    <p class="section-text">stage-1 course at rs-school</p>
+                </section>
+                <section class="languages">
+                    <h2 class="section-title">languages</h2>
+                    <p class="section-text">russian (native), english (a2+)</p>
                 </section>
             </div>
         </div>
