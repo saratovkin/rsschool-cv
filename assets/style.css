@@ -1,0 +1,94 @@
+/* must be refactored */
+
+html, body {
+    padding: 0;
+    margin: 0;
+
+    height: 200%;
+    overflow: hidden;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+
+    background-color:#a6a6a6;
+}
+
+.container {
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+    min-width: 735px;
+    max-width: 1000px;
+}
+
+.left-part {
+    background-color: #efefef;
+    height: 1000px;
+    /* height: 105%; */
+    text-align: center;
+}
+
+.profile-pic {
+    padding-top: 60px;
+}
+
+.right-part {
+    /* height: 105%; */
+    background-color: white;
+}
+
+.main-title {
+    margin: 0;
+    padding: 53px 30px 0 90px;
+
+    font-size: 70px;
+}
+.subtitle {
+    padding-left: 90px;
+
+    font-size: 20px;
+}
+
+.section-title{
+    margin-left: 35px;
+    width: 80%;
+    background-color:#a6a6a6;
+    text-align: center;
+    color: #fff;
+}
+
+.section-list{
+    margin-left: 60px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.section-text{
+    margin-left: 60px;
+    font-size: 15px;
+}
+.footer{
+    background-color: slategray;
+    width: 80%;
+    height: 80px;
+    margin: 0 auto;
+    min-width: 735px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.footer-github{
+    width: 60px;
+    height: 20px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+}
+.footer-github:hover{
+    transition: background-color .2s linear;
+
+    background-color: #a6a6a6;
+}
