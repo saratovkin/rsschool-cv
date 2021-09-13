@@ -8,30 +8,52 @@ html, body {
     font-size: 13px;
     font-weight: 300;
 
-    background-color:#a6a6a6;
+    background-color:#b4c9b2;
 }
 .container {
     margin: 0 auto;   
 
     width: 100%;
-    min-width: 735px;
     max-width: 1000px;
-    height: 100vh;
+    height: 100vh; 
+}
+
+.header{
+    text-align: right;
+    margin: 0 auto;   
+    width: 100%;
+    background-color: #fff;
+}
+
+.navigation-bar{
+    width: 100%;
+}
+
+.navigation li {
+    display: inline;
+    margin-left: 30px;
+}
+.navigation a{
+    text-decoration: none;
+    color: #000;
 }
 .main-blocks{
     display: grid;
     grid-template-columns: 30% 70%;
 }
-.left-part {
+.column-left {
     text-align: center;
-
-    background-color: #efefef;
+    background-color:#aaabab;
 }
-.right-part {
-    background-color: white;
+.column-right {
+    background-color: #fff;
 }
-.header{
-    height: 35vh;
+.info-block{
+    height: 15%;
+}
+.background{
+    background: url(images/bg.jpg) top no-repeat;
+    background-size: cover;
 }
 .profile-pic {
     padding-top: 40px;
@@ -70,12 +92,20 @@ html, body {
     padding: 0;
 
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 15px;
 
     list-style-type: none;
 }
+
+.contacts-scaled{
+    display: none;
+}
+.contacts-scaled li{
+    list-style-type: none;
+}
 .section-title{
+    margin-top: 30px;
     margin-left: 10%;
 
     width: 80%;
@@ -84,10 +114,19 @@ html, body {
     text-align: center;
     color: #fff;
 
-    background-color:#a6a6a6;
+    background-color: #000;
 }
 .section-text{
-    margin-left: 80px;
+    background-color: #fff;
+    margin-left: 12.5%;
+    width: 75%;
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.section-list{
+    background-color: #fff;
+    margin-left: 10%;
     width: 80%;
     font-size: 25px;
     line-height: 1.4;
@@ -101,7 +140,7 @@ html, body {
   
     text-align: center;
 
-    background-color: #848484;
+    background-color:rgb(71, 71, 71);
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
@@ -109,6 +148,40 @@ html, body {
     margin-top: 10px;
 
     font-size: 15px;
-    color: #000;
+    color: #fff;
     text-decoration: none;
+}
+
+@media (max-width: 768px){
+    .column-left{
+        display: none;
+    }
+    .contacts-scaled{
+        display: block;
+    }
+    .main-blocks{
+        display: block;
+        width: 100%;
+        min-width: 310px;
+        grid-template-columns: 100%;
+    }
+}
+
+@media (max-width: 460px){
+    .main-title {
+        margin: 0;
+        padding-top: 40px;
+        padding-left: 80px;
+    
+        font-size: 40px;
+    }
+    .subtitle {
+    
+        margin: 0;
+        margin-top: 20px;
+        padding-left: 80px;
+    
+        font-size: 15px;
+    }
+
 }
