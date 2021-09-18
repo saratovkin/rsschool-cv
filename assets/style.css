@@ -184,14 +184,14 @@ a {
 	top: 0;
 	right: 0;
 	z-index: -1;
-	display: none;
+	visibility: hidden;
 	width: 20%;
 	min-width: 180px;
 	height: 100%;
 	text-align: center;
 	background-color: #aaabab;
 	opacity: 0;
-	animation: fadeinsolid .5s forwards;
+	/* animation: fadeinsolid .5s forwards; */
 }
 
 .menu__item {
@@ -221,30 +221,55 @@ a {
 	left: 0;
 	margin: 0;
 	padding: 0;
-	display: none;
+	opacity: 0;
 	height: 100%;
-	width: 80%;
+	width: 100%;
 	background-color: #333;
 	border: none;
 	opacity: 0;
-	animation: fadeintransparent .5s forwards;
 }
 
 @keyframes fadeintransparent {
+	0% {
+		opacity: 0%;
+		visibility: hidden;
+	}
 	100% {
 		opacity: 70%;
+		visibility: visible;
+	}
+}
+
+@keyframes fadeouttransparent {
+	0% {
+		opacity: 70%;
+		visibility: visible;
+	}
+	100% {
+		opacity: 0%;
+		visibility: hidden;
 	}
 }
 
 @keyframes fadeinsolid {
+	0% {
+		opacity: 0%;
+		visibility: hidden;
+	}
 	100% {
 		opacity: 100%;
+		visibility: visible;
 	}
 }
 
-@keyframes fadeout {
+@keyframes fadeoutsolid {
+	0% {
+		opacity: 100%;
+		visibility: visible;
+	}
 	100% {
 		opacity: 0%;
+		visibility: hidden;
 	}
 }
 
